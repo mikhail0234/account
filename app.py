@@ -167,7 +167,7 @@ def get_policy():
 def change_policy():
     data = request.json
     print("DATA", data)
-    # toDO Нужно делать проверку на правильность данных
+    # toDO 
     with open('policy.json', 'w') as outfile:
         json.dump(data, outfile)
 
